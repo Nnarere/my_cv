@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mareva Mardones</title>
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="stylesheet/responsive.css" media="handheld, only screen and (max-width:500px)">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar  navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CV Mareva Mardones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navbar-nav-scroll justify-content-end">
+          <ul class="navbar-nav justify-content-end">
+            <li><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+            <li><a class="nav-link" href="#contenedor2">Sobre Mi</a></li>
+            <li><a class="nav-link" href="#contenedor3">Tecnologías</a></li>
+            <li><a class="nav-link" href="#contenedor4">Mi Información</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--Inicio-->
+  <div class="contenedor1">
+    <!--titulo-->
+    <div class="titulo">
+      <h1>CV Mareva Mardones</h1>
+      <h2>Desarrolladora FullStack Python</h2>
+      <img class="mare" src="images/avatar-anime.webp" alt="mare">
+    </div>
+
+    <!--Index-->
+    <div class="index">
+      <li class="primerli"><a class="nav-link" href="#contenedor2">Sobre mi</a></li>
+      <li><a class="nav-link" href="#contenedor3">Tecnologías</a></li>
+      <li><a class="nav-link" href="#contenedor4">Mi Información</a></li>
+    </div>
+  </div>
+
+  <!--Sobre mi-->
+  <div class="contenedor2" id="contenedor2">
+
+    <!--Sobre mi-->
+    <div class="about_me">
+      <h2>Sobre mí</h2>
+      <p>
+        Mi nombre es Mareva Mardones, soy Ingeniera en Prevención de Riesgos, Calidad y Ambiente de profesión.
+        Inicialmente me especialicé en Sistemas Integrados de Gestión, y gracias a eso comencé a conocer nuevas
+        tecnologías. La tecnología despertó mi interés, lo cual me llevó a estudiar desarrollo Full Stack. Me gusta
+        mucho crear aplicaciones y estar siempre a la vanguardia.
+      </p>
+
+      <p>
+        Soy una persona alegre, con muchas ganas de aprender cosas nuevas, con capacidad analítica y muy racional. Me
+        encanta la tecnología y siempre busco aprender cosas nuevas en este campo. Estoy constantemente explorando
+        mejores formas de hacer las cosas y
+        optimizar procesos. Además, me apasiona aprender idiomas, lo que me permite comunicarme y entender diferentes
+        culturas.
+      </p>
+    </div>
+
+    <!--Carrousel-->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/pc.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/pc2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div id="contenedor3"></div>
+    </div>
+  </div>
+
+  <!--Tecnologias-->
+  <div class="contenedor3">
+    <p class="subtitulo3">Principales técnologias que utilizo:</p>
+    <ul class="tecnologias">
+      <li> <img class="tecnologo" src="images/html-5.png" alt="HTML5"></li>
+      <li> <img class="tecnologo" src="images/css-3.png" alt="CSS3"></li>
+      <li><img class="tecnologo" src="images/flask.png" alt="flask"></li>
+      <li><img class="tecnologo" src="images/js.png" alt="JavaScript"> </li>
+      <li> <img class="tecnologo" src="images/physics.png" alt="React"></li>
+      <li><img class="tecnologo" src="images/bootstrap.png" alt="Boostrap"></li>
+      <li> <img class="tecnologo" src="images/python.png" alt="Python"></li>
+    </ul>
+  </div>
+
+  <div class="contenedor4" id="contenedor4">
+    <!--Datos-->
+    <div class="datos">
+      <table>
+        <tr>
+          <td class="ask">Locación:</td>
+          <td class="ans">La Florida, Santiago de Chile</td>
+        </tr>
+
+        <tr>
+          <td class="ask">Correo:</td>
+          <td class="ans">marevamardoness@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td class="ask">Teléfono:</td>
+          <td class="ans">+569 7522 7012</td>
+        </tr>
+
+        <tr>
+          <td class="ask">F. Nacimiento:</td>
+          <td class="ans">14/05/1992</td>
+        </tr>
+
+        <tr>
+          <td class="ask">Edad:</td>
+          <td class="edad"></td>
+        </tr>
+      </table>
+    </div>
+
+    <!--Redes sociales-->
+    <div class="rrss">
+      <p>Te invito a ver mis redes sociales</p>
+      <a href="https://github.com/Nnarere"><img class="github img" src="images/github.png">Mira mi repositorio </a>
+      <a href="https://www.linkedin.com/in/mareva-mardones-sep%C3%BAlveda-14b08892/"><img class="linkedin img"
+          src="images/linkedin.png">Sigueme en Linked In</a>
+      <a href="https://wa.me/56975227012"><img class="whatsapp img" src="images/whatsapp.png">Contactame</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
