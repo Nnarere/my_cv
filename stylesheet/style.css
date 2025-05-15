@@ -168,7 +168,7 @@ h2 {
 /*proyectos_destacados*/
 
 .proyectos_destacados {
-    background-color: #f4f4f4;
+    background-color: hsl(289, 27%, 88%)!important;
     padding: 60px 20px;
     text-align: center;
   }
