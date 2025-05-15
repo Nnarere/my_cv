@@ -115,6 +115,18 @@ h2 {
     padding: 10px 0px 10px 0px;
 }
 
+/*CV Descarga*/
+.cv-descarga a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(182, 61, 206);
+    color: white;
+    border-color: rgb(182, 61, 206);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
 /*Tecnologias*/
 
 .contenedor3 {
@@ -152,12 +164,58 @@ h2 {
     border-bottom: none;
 }
 
-/*contenedor4*/
-.contenedor4 {
+
+/*proyectos_destacados*/
+
+.proyectos_destacados {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .proyecto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+
+  
+  .proyecto h3 {
+    margin-top: 15px;
+  }
+  
+  .proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(182, 61, 206);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  
+  
+/*footer*/
+
+#footer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+
 }
+
 
 /*Datos*/
 .datos {
@@ -216,3 +274,74 @@ td {
     color: white;
     text-decoration: none;
 }
+
+
+/*Media Queries*/
+/* Media Queries para sección de proyectos */
+@media screen and (max-width: 1200px) {
+    .titulo, .index, .about_me, .datos, .rrss {
+      padding: 40px 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .contenedor1 {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+    .contenedor2 {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+    .footer, .proyectos_destacados {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .mare {
+      width: 150px;
+    }
+    .index, .titulo {
+      grid-column: auto;
+      grid-row: auto;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+    .index li {
+      padding: 10px;
+      font-size: 1rem;
+    }
+    .tecnologo {
+      width: 60px;
+    }
+    .rrss img {
+      width: 40px;
+    }
+    .about_me {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .titulo, .index, .about_me, .datos, .rrss {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+    .mare {
+      width: 120px;
+    }
+    .proyecto {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
